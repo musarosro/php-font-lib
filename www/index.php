@@ -13,7 +13,7 @@
 <body>
 <?php
 include('../src/FontLib/Autoloader.php');
-$font = \FontLib\Font::load('../fonts/AC Youth-Italic.otf');
+$font = \FontLib\Font::load('../fonts/AC Youth-Thin_Italic.otf');
 $font->parse();  // for getFontWeight() to work this call must be done first!
 // echo $font->getFontName() .'<br>';
 // echo $font->getFontSubfamily() .'<br>';
